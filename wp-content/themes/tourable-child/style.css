@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Tourable
+ Theme URI:    http://example.com/tourable-child/
+ Description:  Tourable Child Theme
+ Author:       Jessica Landgrebe
+ Author URI:   http://resolute-design.com
+ Template:     tourable
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  tourable-child
+*/
+
+.backtotop{
+  border-radius: 50%;
+}
+
+#page-site-header .page-title {
+  text-shadow: 2px 2px 5px #000;
+}
+
+.more-link:hover, .more-link:focus {
+  transition: color .3s;
+  transition-timing-function: ease-out;
+}
+
+a:hover, a:focus, a:active {
+  transition: color .3s;
+}
